@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="utils-v13-1.1.3">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/7582fb39386c27ac0b3354a1e373ca8fbb8736d9/utils-v13-1.1.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
