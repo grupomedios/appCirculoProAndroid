@@ -10,130 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6a350b7-2426-4a00-bca8-46dfdfc27be8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/ic_logo-web.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/DesclubModule.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/MCXModule.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/DesclubModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/MCXModule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tarjeta_bolsas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/tarjeta_bolsas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/tarjeta_bolsas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/tarjeta_bolsas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_logo_desclub_blanco512x512.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/grupomedios/desclub/desclubandroid/ApplicationTest.java" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/grupomedios/circulo_pro/android/ApplicationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/DesclubApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/DesclubApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/VolleySingleton.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/VolleySingleton.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/card/activity/SaludActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/card/activity/SaludActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/card/fragment/CardFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/card/fragment/CardFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/common/activity/BaseActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/common/activity/BaseActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/common/activity/DesclubGeneralActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/common/activity/DesclubGeneralActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/discounts/activity/BranchesActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/discounts/activity/BranchesActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/discounts/activity/DiscountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/discounts/activity/DiscountActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/discounts/activity/DiscountListActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/discounts/activity/DiscountListActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/discounts/adapter/DiscountAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/discounts/adapter/DiscountAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/discounts/fragment/BranchesFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/discounts/fragment/BranchesFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/discounts/fragment/DiscountListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/discounts/fragment/DiscountListFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/home/activity/DesclubMainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/home/activity/DesclubMainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/home/activity/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/home/activity/SplashActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/home/adapter/CategoryAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/home/adapter/CategoryAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/home/fragment/MainFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/home/fragment/MainFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/home/util/FakeCategoryUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/home/util/FakeCategoryUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/map/activity/DesclubMapActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/map/activity/DesclubMapActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/map/fragment/DesclubMapFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/map/fragment/DesclubMapFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/map/fragment/MarkerInfoWindowAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/map/fragment/MarkerInfoWindowAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/recommended/adapter/RecommendedDiscountAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/recommended/adapter/RecommendedDiscountAdapter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubandroid/recommended/fragment/RecommendedFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/recommended/fragment/RecommendedFragment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/facade/CategoryFacade.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/facade/CategoryFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/facade/CorporateMembershipFacade.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/facade/CorporateMembershipFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/facade/DiscountFacade.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/facade/DiscountFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/facade/StateFacade.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/facade/StateFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/facade/ZoneFacade.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/facade/ZoneFacade.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/BancomerCorporateMembershipAdditionalDataRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/BancomerCorporateMembershipAdditionalDataRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/BranchRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/BranchRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/BrandRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/BrandRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/CategoryRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/CategoryRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/CorporateMembershipAdditionalDataRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/CorporateMembershipAdditionalDataRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/CorporateMembershipAlreadyUsedRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/CorporateMembershipAlreadyUsedRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/CorporateMembershipInputRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/CorporateMembershipInputRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/CorporateMembershipRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/CorporateMembershipRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/CorporateRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/CorporateRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/DiscountRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/DiscountRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/FakeCategoryRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/FakeCategoryRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/LocationRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/LocationRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/NearByDiscountRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/NearByDiscountRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/NearByDiscountWithFakeCategoryRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/NearByDiscountWithFakeCategoryRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/StateRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/StateRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/SubcategoryRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/SubcategoryRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubapi/representations/ZoneRepresentation.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/api/representations/ZoneRepresentation.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/MCXApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/MCXApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/exception/CommonErrorListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/exception/CommonErrorListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/exception/DesclubException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/exception/DesclubException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/exception/LoginErrorListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/exception/LoginErrorListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/exception/SignUpErrorListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/exception/SignUpErrorListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/exception/SilentErrorListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/exception/SilentErrorListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/exception/SilentListErrorListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/exception/SilentListErrorListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/gps/GPSService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/gps/GPSService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/network/json/GsonUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/network/json/GsonUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/network/json/LocationDeserializer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/network/json/LocationDeserializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/network/json/TimestampDeserializer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/network/json/TimestampDeserializer.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/network/volley/GsonRequest.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/network/volley/GsonRequest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/security/SecurityUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/security/SecurityUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/security/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/security/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/security/UserHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/security/UserHelper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/security/UserSessionCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/security/UserSessionCallback.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/dialog/DialogUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/dialog/DialogUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/font/FontelloTextView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/font/FontelloTextView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/font/MaterialIconTextView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/font/MaterialIconTextView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/image/ImageUtil.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/image/ImageUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/image/TouchImageView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/image/TouchImageView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/AlphaForegroundColorSpan.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/AlphaForegroundColorSpan.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/IncompatibleRatioException.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/IncompatibleRatioException.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/KenBurnsView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/KenBurnsView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/MathUtils.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/MathUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/ObservableWebView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/ObservableWebView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/RandomTransitionGenerator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/RandomTransitionGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/Transition.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/Transition.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/kbv/TransitionGenerator.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/kbv/TransitionGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/list/PaginableActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/list/PaginableActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/scroll/EndlessScrollListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/scroll/EndlessScrollListener.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/desclub/desclubutil/ui/widget/BadgeView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/util/ui/widget/BadgeView.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/app-prod-release.apk" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_big.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_small.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logo_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_big.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_small.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/logo_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_big.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_small.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/logo_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_big.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_big.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_small.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_small.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/tarjeta_bolsas.png" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/tarjeta_bolsas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/local/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/local/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_discount.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_discount.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_discount_list.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_discount_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/qa/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/qa/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/manifest-merger-prod-release-report.txt" afterPath="$PROJECT_DIR$/app/manifest-merger-prod-release-report.txt" />
     </list>
     <ignored path="CirculoPro.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -161,122 +47,23 @@
     <favorites_list name="CirculoPro" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.36952713">
+              <caret line="42" column="58" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="58" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="toolbar.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/common/activity/BaseActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_map.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_discount.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_discount.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30882353">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-              <folding>
-                <element signature="e#4427#4447#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0576923">
-              <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_salud.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_salud.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logo_desclub.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_desclub.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/app/circulo_pro.jks" />
+    <option name="KEY_ALIAS" value="circulo_pro_keystore" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2860,7 +2647,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4355311432000" />
+        <entry key="$PROJECT_DIR$" value="4355457387000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3201,11 +2988,11 @@
         <option value="$PROJECT_DIR$/app/src/qa/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/local/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_discount.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -3224,7 +3011,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -3238,8 +3025,131 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intermediates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dex-cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="outputs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3257,11 +3167,27 @@
               <option name="myItemId" value="CirculoPro" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CirculoPro" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3269,6 +3195,10 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="device.picker.selection" value="T08900M8ZR" />
     <property name="FullScreen" value="true" />
+    <property name="ExportApk.ApkPath" value="$USER_HOME$/Desktop" />
+    <property name="ExportApk.Flavors" value="prod" />
+    <property name="ExportApk.BuildType" value="release" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -3561,13 +3491,12 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26732674" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.49367088" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.49916527" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15155807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15155807" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -3575,8 +3504,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5063291" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5008347" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3588,6 +3516,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3712,7 +3642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3774,7 +3703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3811,7 +3739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3829,7 +3756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.0163937">
           <caret line="98" column="19" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3844,7 +3770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8888888">
           <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3864,7 +3789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3907,9 +3831,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_desclub.png">
-      <provider selected="true" editor-type-id="images">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21276596">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml">
+      <provider editor-type-id="android-designer">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65736043">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/common/activity/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.033557046">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26649746">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_discount.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8357771">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <folding>
+            <element signature="e#4427#4447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62390673">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_salud.xml">
@@ -3917,7 +3895,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.28301886">
           <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
@@ -3928,76 +3906,22 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.038071066">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/grupomedios/circulo_pro/android/common/activity/BaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_desclub.png">
+      <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="52" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.36952713">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="58" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_map.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0576923">
-          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_discount.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30882353">
-          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-          <folding>
-            <element signature="e#4427#4447#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

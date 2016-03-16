@@ -24,16 +24,16 @@ android {
 
     signingConfigs {
         configQA {
-            keyAlias 'desclub_keystore'
-            keyPassword 'D3scluB_2015'
-            storeFile file('./desclub.jks')
-            storePassword 'D3scluB_2015'
+            keyAlias 'circulo_pro_keystore'
+            keyPassword 'C1rcul0_Pr0_2016'
+            storeFile file('./circulo_pro.jks')
+            storePassword 'C1rcul0_Pr0_2016'
         }
         configRelease {
-            keyAlias 'desclub_keystore'
-            keyPassword 'D3scluB_2015'
-            storeFile file('./desclub.jks')
-            storePassword 'D3scluB_2015'
+            keyAlias 'circulo_pro_keystore'
+            keyPassword 'C1rcul0_Pr0_2016'
+            storeFile file('./circulo_pro.jks')
+            storePassword 'C1rcul0_Pr0_2016'
         }
     }
 
@@ -43,8 +43,8 @@ android {
         applicationId "com.grupomedios.circulo_pro.android"
         minSdkVersion 18
         targetSdkVersion 22
-        versionCode 12
-        versionName "1.1.2"
+        versionCode 1
+        versionName "1.0.0"
         // Enabling multidex support.
         //multiDexEnabled true
     }
