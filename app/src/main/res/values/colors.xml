@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="desclub_blue">#F7A700</color>
-    <color name="desclub_blue_dark">#F7A700</color>
-    <color name="desclub_orange">#1E366C</color>
+    <color name="desclub_blue">#1E366C</color>
+    <color name="desclub_blue_dark">#1E366C</color>
+    <color name="desclub_orange">#F7A700</color>
 
     <color name="category_alimentos">#CA4A2A</color>
     <color name="category_belleza_salud">#6993CC</color>
