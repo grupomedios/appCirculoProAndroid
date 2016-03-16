@@ -6,6 +6,6 @@
 
     <string name="authority_hotel_suggestion">com.beepquest.beepquestandroid.qa.home.contentProvider.HotelSuggestionProvider</string>
     
-    <string name="app_name">Desclub QA</string>
+    <string name="app_name">Circulo Pro QA</string>
 
 </resources>

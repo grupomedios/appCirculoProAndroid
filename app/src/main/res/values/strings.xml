@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Desclub</string>
+    <string name="app_name">Circulo Pro</string>
 
     <!-- Common strings-->
     <string name="search_hint">Buscar</string>
@@ -33,8 +33,6 @@
     <string name="exit">Salir</string>
     <string name="cancel">Cancelar</string>
     <string name="signin">Regístrate</string>
-    <string name="red_medica_alert_text">Muy pronto podrás disfrutar de los beneficios de la red médica con tu tarjeta Desclub</string>
-    <string name="card_text">Muy pronto podrás usar tu tarjeta Desclub para disfrutar los descuentos desde la app</string>
 
     <!-- login-->
     <string name="lastName1">Primer Apellido</string>
@@ -90,7 +88,7 @@
     <string name="use_coupon">Usar cupón</string>
     <string name="options">+</string>
     <string name="hide_coupon">Ocultar cupón</string>
-    <string name="membership">Membresía</string>
+    <string name="membership"></string>
     <string name="anonymous_message_card">Para utilizar tu tarjeta virtual debes registrarte, ve a la sección tarjeta y regístrate.</string>
     <string name="anonymous_message">Para utilizar tu tarjeta virtual debes registrarte.</string>
     <string name="out_of_range">Estás fuera de rango. Debes estar cerca del establecimiento para usar este cupón.</string>

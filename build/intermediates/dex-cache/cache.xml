@@ -170,18 +170,18 @@
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/release/bolts-android-1.1.2-27716963b39e27270bce7113e2a1643346563653.jar" />
     </item>
     <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.6/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fc82596d7f7683c8b3a7e5715a2ed5295c586887">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/release/classes-2711be746565ce180ebe9b9b634d507c8f7689c6.jar" />
-    </item>
-    <item
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.1.3/classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="2b0de013e5734ad3efbcaeb7727f06c37db3cc35">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/release/classes-da48e822e7c8345e550df5199563574938391e32.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.6/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fc82596d7f7683c8b3a7e5715a2ed5295c586887">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/release/classes-2711be746565ce180ebe9b9b634d507c8f7689c6.jar" />
     </item>
     <item
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/classes.jar"

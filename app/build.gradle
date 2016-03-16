@@ -40,7 +40,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion '23.0.2'
     defaultConfig {
-        applicationId "com.grupomedios.desclub.desclubandroid"
+        applicationId "com.grupomedios.circulo_pro.android"
         minSdkVersion 18
         targetSdkVersion 22
         versionCode 12
@@ -69,24 +69,22 @@ android {
     productFlavors {
 
         local {
-            applicationId "com.grupomedios.desclub.desclubandroid.local"
+            applicationId "com.grupomedios.circulo_pro.android.local"
 
             buildConfigField "String", "BASE_URL", "\"http://192.168.1.126:6543\""
             buildConfigField "String", "DESCLUB_CORPORATE", "\"56292902209fbaf369edca57\""
         }
 
         qa {
-            applicationId "com.grupomedios.desclub.desclubandroid.qa"
+            applicationId "com.grupomedios.circulo_pro.android.qa"
 
             buildConfigField "String", "BASE_URL", "\"http://desclubapi.beepquest.net\""
             buildConfigField "String", "DESCLUB_CORPORATE", "\"55947ab755de186939a837d5\""
 
-            ext.betaDistributionEmailsFilePath = "/Users/jhoncruz/environment/workspaces/desclub/DesclubAndroid/beta_distribution_emails.txt"
-            ext.betaDistributionReleaseNotesFilePath = "/Users/jhoncruz/environment/workspaces/desclub/DesclubAndroid/release-notes/${defaultConfig.versionName}.txt"
-        }
+         }
 
         prod {
-            applicationId "com.grupomedios.desclub.desclubandroid"
+            applicationId "com.grupomedios.circulo_pro.android"
 
             buildConfigField "String", "BASE_URL", "\"http://feeds.grupomedios.com:6543\""
             buildConfigField "String", "DESCLUB_CORPORATE", "\"55947ab755de186939a837d5\""
