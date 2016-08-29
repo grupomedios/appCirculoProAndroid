@@ -15,6 +15,8 @@ import com.grupomedios.circulo_pro.android.home.fragment.MainFragment;
 import com.grupomedios.circulo_pro.android.map.activity.DesclubMapActivity;
 import com.grupomedios.circulo_pro.android.map.fragment.DesclubMapFragment;
 import com.grupomedios.circulo_pro.android.recommended.fragment.RecommendedFragment;
+import com.grupomedios.circulo_pro.android.warranty.activity.RequestWarrantyActivity;
+import com.grupomedios.circulo_pro.android.warranty.activity.WarrantyActivity;
 import com.grupomedios.circulo_pro.util.MCXModule;
 
 import dagger.Module;
@@ -40,7 +42,9 @@ import dagger.Module;
                 RecommendedFragment.class,
                 CardFragment.class,
                 DiscountListFragment.class,
-                BranchesFragment.class
+                BranchesFragment.class,
+                WarrantyActivity.class,
+                RequestWarrantyActivity.class
 
         },
         includes = {

@@ -1,5 +1,6 @@
 package com.grupomedios.circulo_pro.android.common.activity;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
@@ -9,6 +10,8 @@ import com.android.volley.RequestQueue;
 import com.grupomedios.circulo_pro.android.R;
 import com.grupomedios.circulo_pro.android.VolleySingleton;
 import com.grupomedios.circulo_pro.util.MCXApplication;
+
+import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public abstract class BaseActivity extends ActionBarActivity {
 
@@ -59,4 +62,10 @@ public abstract class BaseActivity extends ActionBarActivity {
             toolbar.setBackgroundColor(color);
         }
     }
+
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
+    }
+
 }

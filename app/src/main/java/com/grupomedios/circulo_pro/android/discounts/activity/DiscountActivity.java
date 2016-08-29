@@ -5,18 +5,16 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.graphics.drawable.GradientDrawable;
 import android.location.Location;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.Transformation;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -28,7 +26,9 @@ import com.grupomedios.circulo_pro.android.R;
 import com.grupomedios.circulo_pro.android.VolleySingleton;
 import com.grupomedios.circulo_pro.android.common.activity.DesclubGeneralActivity;
 import com.grupomedios.circulo_pro.android.discounts.adapter.DiscountAdapter;
+import com.grupomedios.circulo_pro.android.home.activity.DesclubMainActivity;
 import com.grupomedios.circulo_pro.android.map.activity.DesclubMapActivity;
+import com.grupomedios.circulo_pro.android.warranty.activity.WarrantyActivity;
 import com.grupomedios.circulo_pro.api.representations.CorporateMembershipRepresentation;
 import com.grupomedios.circulo_pro.api.representations.DiscountRepresentation;
 import com.grupomedios.circulo_pro.api.representations.FakeCategoryRepresentation;
@@ -46,7 +46,11 @@ import javax.inject.Inject;
  * Created by jhoncruz on 29/05/15.
  */
 public class DiscountActivity extends DesclubGeneralActivity {
+    private static final int DURATION_THANKS_MESSAGE = 1000;
+    private static final int DURATION_EXPAND_COLLAPSE_ANIMATIONS = 2000;
+    private static final int MAX_DISTANCE_TO_STORE = 2000;
 
+    // 1seg
     private final static String TAG = "DiscountActivity";
 
     public static final String CURRENT_DISCOUNT_PARAM = "com.grupomedios.desclub.desclubandroid.discounts.activity.DiscountActivity.currentDiscount";
@@ -66,12 +70,21 @@ public class DiscountActivity extends DesclubGeneralActivity {
     private View showInMapIconView;
     private View branchesIconView;
 
+    private View mThanksMessageContainer;
+
     @Inject
     UserHelper userHelper;
+    private RelativeLayout mBtnUseCoupon;
+    private RelativeLayout mViewDiscountLayout;
+    private TextView mCouponLabel;
+    private View mCouponDescriptionContainer;
+    private FloatingActionButton mLeftLowerButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        initUi();
 
         this.discount = (DiscountRepresentation) getIntent().getSerializableExtra(CURRENT_DISCOUNT_PARAM);
         this.category = (FakeCategoryRepresentation) getIntent().getSerializableExtra(CURRENT_CATEGORY_PARAM);
@@ -80,6 +93,16 @@ public class DiscountActivity extends DesclubGeneralActivity {
 
         gpsService = new GPSService(this);
         gpsService.getLocation();
+    }
+
+    private void initUi() {
+        mViewDiscountLayout = (RelativeLayout) findViewById(R.id.viewDiscount_couponView_layout);
+        mCouponLabel = (TextView) findViewById(R.id.viewDiscount_coupon_label);
+        mThanksMessageContainer = findViewById(R.id.discount_thanks_message_container);
+        mCouponDescriptionContainer = findViewById(R.id.discount_coupon_description_container);
+        findViewById(R.id.discount_choice_used).setOnClickListener(mOnClickOnCouponUsed);
+        findViewById(R.id.discount_choice_neutral).setOnClickListener(mOnClickOnCouponNeutral);
+        findViewById(R.id.discount_choice_not_used).setOnClickListener(mOnClickOnCouponNotused);
     }
 
     @Override
@@ -176,11 +199,11 @@ public class DiscountActivity extends DesclubGeneralActivity {
         restrictions.setText(discount.getRestriction());
 
         //button color
-        RelativeLayout useCouponButton = (RelativeLayout) findViewById(R.id.viewDiscount_coupon_layout);
+        mBtnUseCoupon = (RelativeLayout) findViewById(R.id.viewDiscount_coupon_layout);
         GradientDrawable drawable = (GradientDrawable) getResources().getDrawable(R.drawable.round_background);
         drawable.setColor(getResources().getColor(category.getColor()));
-        useCouponButton.setBackgroundDrawable(drawable);
-        useCouponButton.setOnClickListener(new View.OnClickListener() {
+        mBtnUseCoupon.setBackgroundDrawable(drawable);
+        mBtnUseCoupon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 toggleCoupon();
@@ -228,7 +251,7 @@ public class DiscountActivity extends DesclubGeneralActivity {
         GradientDrawable blueBackgroundDrawable = (GradientDrawable) getResources().getDrawable(R.drawable.round_background);
         blueBackgroundDrawable.setColor(getResources().getColor(R.color.desclub_blue_dark));
 
-        final FloatingActionButton leftLowerButton = new FloatingActionButton.Builder(this)
+        mLeftLowerButton = new FloatingActionButton.Builder(this)
                 .setContentView(fabIconNew)
                 .setBackgroundDrawable(blueBackgroundDrawable)
                 .setPosition(FloatingActionButton.POSITION_BOTTOM_LEFT)
@@ -280,7 +303,7 @@ public class DiscountActivity extends DesclubGeneralActivity {
                 .addSubActionView(directionsIconView)
                 .addSubActionView(showInMapIconView)
                 .addSubActionView(branchesIconView)
-                .attachTo(leftLowerButton)
+                .attachTo(mLeftLowerButton)
                 .setStartAngle(270)
                 .setEndAngle(360)
                 .build();
@@ -304,17 +327,13 @@ public class DiscountActivity extends DesclubGeneralActivity {
      */
     private void toggleCoupon() {
 
-        RelativeLayout viewDiscountLayout = (RelativeLayout) findViewById(R.id.viewDiscount_couponView_layout);
-        TextView couponLabel = (TextView) findViewById(R.id.viewDiscount_coupon_label);
-
-        if (viewDiscountLayout.getVisibility() == View.GONE) {
-
-            //force landscape
-            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
-            couponLabel.setText(getString(R.string.hide_coupon));
+        if (mViewDiscountLayout.getVisibility() == View.GONE) {
+            //            //force landscape
+//            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
+            mCouponLabel.setText(getString(R.string.hide_coupon));
 
             LinearLayout membershipMessage = (LinearLayout) findViewById(R.id.viewDiscount_showMembershipMessage);
-            RelativeLayout showCardLayout = (RelativeLayout) findViewById(R.id.viewDiscount_showCardLayout);
+            View showCardLayout = findViewById(R.id.viewDiscount_showCardLayout);
 
             TextView memebershipNumber = (TextView) findViewById(R.id.viewDiscount_membershipNumber);
             TextView name = (TextView) findViewById(R.id.viewDiscount_name);
@@ -326,10 +345,14 @@ public class DiscountActivity extends DesclubGeneralActivity {
                 discountLocation.setLongitude(discount.getLocation().getCoordinates()[0]);
                 discountLocation.setLatitude(discount.getLocation().getCoordinates()[1]);
 
-                float distanceInMeters = discountLocation.distanceTo(gpsService.getLocation());
+                float distanceInMeters = MAX_DISTANCE_TO_STORE;
+                if (gpsService.getLocation() != null)
+                    distanceInMeters = discountLocation.distanceTo(gpsService.getLocation());
 
-                if (distanceInMeters < 2000) {
-
+                if (distanceInMeters < MAX_DISTANCE_TO_STORE) {
+                    mLeftLowerButton.setVisibility(View.GONE);
+                    mBtnUseCoupon.setVisibility(View.GONE);
+                    mCouponDescriptionContainer.setVisibility(View.GONE);
                     membershipMessage.setVisibility(View.GONE);
                     showCardLayout.setVisibility(View.VISIBLE);
 
@@ -339,12 +362,12 @@ public class DiscountActivity extends DesclubGeneralActivity {
                     name.setText(currentUser.getName().toUpperCase());
                     validThru.setText(userHelper.getValidThru());
 
-                    expand(viewDiscountLayout);
+                    mViewDiscountLayout.setVisibility(View.VISIBLE);
                 } else {
 
                     //force portrait
-                    this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-                    couponLabel.setText(getString(R.string.use_coupon));
+                    //                    this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+                    mCouponLabel.setText(getString(R.string.use_coupon));
 
                     AlertDialog.Builder builder = new AlertDialog.Builder(this);
                     builder.setTitle(R.string.app_name);
@@ -361,78 +384,118 @@ public class DiscountActivity extends DesclubGeneralActivity {
                 }
 
             } else {
-                membershipMessage.setVisibility(View.VISIBLE);
+                mCouponDescriptionContainer.setVisibility(View.GONE);
                 showCardLayout.setVisibility(View.GONE);
-
+                membershipMessage.setVisibility(View.VISIBLE);
                 memebershipNumber.setText("");
                 name.setText("");
-
-                expand(viewDiscountLayout);
+                mViewDiscountLayout.setVisibility(View.VISIBLE);
+                mLeftLowerButton.setVisibility(View.VISIBLE);
             }
 
         } else {
             //force portrait
-            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-            couponLabel.setText(getString(R.string.use_coupon));
-
-            collapse(viewDiscountLayout);
+//            this.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+            mBtnUseCoupon.setVisibility(View.VISIBLE);
+            mCouponLabel.setText(getString(R.string.use_coupon));
+            mCouponDescriptionContainer.setVisibility(View.VISIBLE);
+            mViewDiscountLayout.setVisibility(View.GONE);
         }
 
     }
 
-    public static void expand(final View v) {
-        v.measure(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
-        final int targetHeight = v.getMeasuredHeight();
-
-        v.getLayoutParams().height = 0;
-        v.setVisibility(View.VISIBLE);
-        Animation a = new Animation() {
-            @Override
-            protected void applyTransformation(float interpolatedTime, Transformation t) {
-                v.getLayoutParams().height = interpolatedTime == 1
-                        ? RelativeLayout.LayoutParams.WRAP_CONTENT
-                        : (int) (targetHeight * interpolatedTime);
-                v.requestLayout();
-            }
-
-            @Override
-            public boolean willChangeBounds() {
-                return true;
-            }
-        };
-
-        // 1dp/ms
-        a.setDuration((int) (targetHeight / v.getContext().getResources().getDisplayMetrics().density));
-        v.startAnimation(a);
-    }
-
-    public static void collapse(final View v) {
-        final int initialHeight = v.getMeasuredHeight();
-
-        Animation a = new Animation() {
-            @Override
-            protected void applyTransformation(float interpolatedTime, Transformation t) {
-                if (interpolatedTime == 1) {
-                    v.setVisibility(View.GONE);
-                } else {
-                    v.getLayoutParams().height = initialHeight - (int) (initialHeight * interpolatedTime);
-                    v.requestLayout();
-                }
-            }
-
-            @Override
-            public boolean willChangeBounds() {
-                return true;
-            }
-        };
-
-        // 1dp/ms
-        a.setDuration((int) (initialHeight / v.getContext().getResources().getDisplayMetrics().density));
-        v.startAnimation(a);
-    }
+//    public static void expand(final View v) {
+//        v.measure(RelativeLayout.LayoutParams.MATCH_PARENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
+//        final int targetHeight = v.getMeasuredHeight();
+//
+//        v.getLayoutParams().height = 0;
+//        v.setVisibility(View.VISIBLE);
+//        Animation a = new Animation() {
+//            @Override
+//            protected void applyTransformation(float interpolatedTime, Transformation t) {
+//                v.getLayoutParams().height = interpolatedTime == 1
+//                        ? RelativeLayout.LayoutParams.WRAP_CONTENT
+//                        : (int) (targetHeight * interpolatedTime);
+//                v.requestLayout();
+//            }
+//
+//            @Override
+//            public boolean willChangeBounds() {
+//                return true;
+//            }
+//        };
+//
+//        // 1dp/ms
+//        a.setDuration((int) (targetHeight / v.getContext().getResources().getDisplayMetrics().density));
+//        v.startAnimation(a);
+//    }
+//
+//    public static void collapse(final View v) {
+//        final int initialHeight = v.getMeasuredHeight();
+//
+//        Animation a = new Animation() {
+//            @Override
+//            protected void applyTransformation(float interpolatedTime, Transformation t) {
+//                if (interpolatedTime == 1) {
+//                    v.setVisibility(View.GONE);
+//                } else {
+//                    v.getLayoutParams().height = initialHeight - (int) (initialHeight * interpolatedTime);
+//                    v.requestLayout();
+//                }
+//            }
+//
+//            @Override
+//            public boolean willChangeBounds() {
+//                return true;
+//            }
+//        };
+//
+//        // 1dp/ms
+//        a.setDuration((int) (initialHeight / v.getContext().getResources().getDisplayMetrics().density));
+//        v.startAnimation(a);
+//    }
 
     @Override
     protected int getLayoutResource() {
         return R.layout.activity_discount;
     }
+
+    private View.OnClickListener mOnClickOnCouponUsed = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            mThanksMessageContainer.setVisibility(View.VISIBLE);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    Intent intent = new Intent(DiscountActivity.this, DesclubMainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    startActivity(intent);
+                    finish();
+                }
+            }, DURATION_THANKS_MESSAGE);
+//            trackEvent(getString(R.string.analytics_category_coupon_used), getString(R.string.analytics_event_coupon_prefix) + discount.getBranch().getName());
+        }
+    };
+
+    private View.OnClickListener mOnClickOnCouponNeutral = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            mViewDiscountLayout.setVisibility(View.GONE);
+            mCouponLabel.setText(getString(R.string.use_coupon));
+            mBtnUseCoupon.setVisibility(View.VISIBLE);
+            mCouponDescriptionContainer.setVisibility(View.VISIBLE);
+            mLeftLowerButton.setVisibility(View.VISIBLE);
+
+//            trackEvent(getString(R.string.analytics_category_coupon_not_used), getString(R.string.analytics_event_coupon_prefix) + discount.getBranch().getName());
+        }
+    };
+
+    private View.OnClickListener mOnClickOnCouponNotused = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+//            trackEvent(getString(R.string.analytics_category_cupon_not_valid), getString(R.string.analytics_event_coupon_prefix) + discount.getBranch().getName());
+            startActivity(new Intent(DiscountActivity.this, WarrantyActivity.class));
+        }
+    };
+
 }
