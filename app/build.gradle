@@ -24,16 +24,16 @@ android {
 
     signingConfigs {
         configQA {
-            keyAlias 'circulo_pro_keystore'
-            keyPassword 'C1rcul0_Pr0_2016'
-            storeFile file('./circulo_pro.jks')
-            storePassword 'C1rcul0_Pr0_2016'
+            keyAlias 'circulopro'
+            keyPassword 'grup0m3d10s'
+            storeFile file('./circulopro.jks')
+            storePassword 'grup0m3d10s'
         }
         configRelease {
-            keyAlias 'circulo_pro_keystore'
-            keyPassword 'C1rcul0_Pr0_2016'
-            storeFile file('./circulo_pro.jks')
-            storePassword 'C1rcul0_Pr0_2016'
+            keyAlias 'circulopro'
+            keyPassword 'grup0m3d10s'
+            storeFile file('./circulopro.jks')
+            storePassword 'grup0m3d10s'
         }
     }
 
