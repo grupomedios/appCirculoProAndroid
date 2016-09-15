@@ -160,6 +160,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentBottom="true"
+            android:visibility="gone"
             android:layout_marginBottom="@dimen/margin_medium"
             android:gravity="center_horizontal|bottom"
             android:orientation="vertical">
