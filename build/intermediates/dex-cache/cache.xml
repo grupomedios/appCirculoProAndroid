@@ -2,312 +2,752 @@
 <items version="2" >
 
     <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/dagger-compiler-1.2.2_84ebca8dd0bad530c3ec61a33809bef9b77780e6.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-appindexing-8.3.0_f4a509d497389faae4419239c65982d756492bd3.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-plus-8.3.0_a442f67060d4356dea1b2388bd8b5fe0bb0cf298.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="71eda10e33212e44245524b5087366ff8d805825">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-gcm-8.3.0_ca440635de6e9c608cba471b6056597f129f99cb.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-identity-8.3.0_c2b3016ecb45d9a796510c450dba48b9da08bc9b.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.1.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2b0de013e5734ad3efbcaeb7727f06c37db3cc35">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.ogaclejapan.smarttablayout-library-1.1.3_f8189f5afa05eeefbfa5f9eae4cfe977e3037734.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.6/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="fc82596d7f7683c8b3a7e5715a2ed5295c586887">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/io.fabric.sdk.android-fabric-1.3.6_f9679d1825002d349ac5674e561814294315202a.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/libs/nineoldandroids-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/nineoldandroids-2.4.0_a43f543bff7bd4e4336899a1065e115ed251e6a7.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-support-v13-22.0.0_d25fda55d69fd9e2835cfade9e8fd795bc0ee37a.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/universal-image-loader-1.9.3_06055c8ae1e08c89934076701f48c549ae402b02.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-recyclerview-v7-22.1.1_e0b4579c235b4cbec3f03c345b254372d2dc1c56.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-support-v4-23.1.1_a8e96481ea60d7d6026e69c8850045e70a3f9664.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.yalantis/phoenix/1.1.2/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="58942d19ac4ac37a3e93c17ed754737bee6534d4">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.yalantis-phoenix-1.1.2_044ca06283a3eba8fe0530d3fed146d9d60450e3.jar" />
     </item>
     <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="a71fb362a5dbd1a94505c0e73ed9a3b370be83b5">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.ogaclejapan.smarttablayout-utils-v13-1.1.3_792cc7f54d929005abbf98dd5c3bd646d18842a1.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.andreabaccega/android-form-edittext/1.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="352e84b094a60afce4e9efcf45887ee0c2b14e7d">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.andreabaccega-android-form-edittext-1.1.0_7f649686357445712d6e40d2b35af47b72c709cb.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/uk.co.chrisjenx-calligraphy-2.2.0_f1e0e246e4cde066ac560e06609bdabf6c780dad.jar" />
-    </item>
-    <item
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/javawriter-2.5.0_a3f874f49e4f2125d5b23c2c4a6cf5db5d98275c.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/javax.inject-1_ff420a9780a5e05274e6f0f2dad425f61b9599f9.jar" />
-    </item>
-    <item
+        is-multidex="false"
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/internal_impl-23.1.1_b09b881fd4dc4b9ac7918eaa44aa7f54b7489205.jar" />
     </item>
     <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.2/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/guava-15.0_2d9b10591e40e26e7b8dc22adf13c41be3ea5481.jar" />
+        sha1="e99413cdc93bd7b001d312a4a33d25ac21042f69">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-answers-1.3.2_7bef24030a7bcf94fc284939bec90dc7af8262ca.jar" />
     </item>
     <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
-        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/bolts-android-1.1.2_27716963b39e27270bce7113e2a1643346563653.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/libs/internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/internal_impl-22.0.0_8eb35b76f02af255f6fd6c0eb51bea884857d453.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-base-8.3.0_46a69704c9b373676d2935c08790a99bca357642.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/gson-2.3_742fa48d7d1c1212e916ca3e4531a30a7f6d1949.jar" />
+        sha1="71eda10e33212e44245524b5087366ff8d805825">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-gcm-8.3.0_ca440635de6e9c608cba471b6056597f129f99cb.jar" />
     </item>
     <item
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.oguzdev/CircularFloatingActionMenu/1.0.2/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="607d961caf1a59b6e782724654c1f3229e036c20">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.oguzdev-CircularFloatingActionMenu-1.0.2_a1511747596564b793a254d833823eefd7997406.jar" />
     </item>
     <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-core-slh-3.1.0_6c924ab342f484e77d3b004c0c96b1211c6bbc23.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b80928f77e18d088e2d5103a7fca051d70878ca7">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.afollestad-material-dialogs-0.7.3.3_4af167c9e5c04959b7a4cfda7acfa567a4a8faad.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.facebook.android-facebook-android-sdk-3.21.1_b25d5d9c81edd8ffb45b6924437dbe3e09e9fb74.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.2/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0c7f9fb9a729166c69fa585e01be2fe8fab4f45c">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-crashlytics-2.5.2_08ba7a134dabb174580e91db8134bff210069ad0.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-analytics-8.3.0_3a9ced3ba1aafc25effa643435c541e15a5bcc02.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.3/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-beta-1.1.3_8e710763cf571330ff801bac816b162f90429da2.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-core-3.1.0_e45f9d2dc36366a44d4537a75dc9db2609983e33.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/me.grantland/autofittextview/0.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/me.grantland-autofittextview-0.2.1_5dc754df7d720153ea890151f7da4ff74a32a822.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/support-annotations-23.1.1_9f27e0258fcb8a97875c3537bd18c9c5e146bc0b.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-manipulation-3.1.0_5d27398a8bbad20c09802a6fa3f41253cd41c6d5.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-measurement-8.3.0_d5c1cc94aed20e7144b9b535326100927dc67eea.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.5/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d18ba1d0eff55680fdf9a35f70a6091e4bc1adcb">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.5_8602f369587d669d3b3be1c867d07e3004a0f4d8.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="77f9593d979f4347344be233bd0d888315f79517">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-maps-8.3.0_50548d977cf72b18be65507a046ef6dbdef299ce.jar" />
-    </item>
-    <item
-        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="e8f912ee19ad84958510883ea191135276b091f8">
-        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/dagger-1.2.2_534c150185a27da36fbc0b27a52344a35ef19e68.jar" />
-    </item>
-    <item
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-basement-8.3.0_bdc97d16669bffef7887343c5a48c81bdc973603.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/universal-image-loader-1.9.3_06055c8ae1e08c89934076701f48c549ae402b02.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-core-3.1.0_e45f9d2dc36366a44d4537a75dc9db2609983e33.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d18ba1d0eff55680fdf9a35f70a6091e4bc1adcb">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.5_8602f369587d669d3b3be1c867d07e3004a0f4d8.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-manipulation-3.1.0_5d27398a8bbad20c09802a6fa3f41253cd41c6d5.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/dagger-1.2.2_534c150185a27da36fbc0b27a52344a35ef19e68.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-beta-1.1.3_8e710763cf571330ff801bac816b162f90429da2.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a71fb362a5dbd1a94505c0e73ed9a3b370be83b5">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.ogaclejapan.smarttablayout-utils-v13-1.1.3_792cc7f54d929005abbf98dd5c3bd646d18842a1.jar" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/javawriter-2.5.0_a3f874f49e4f2125d5b23c2c4a6cf5db5d98275c.jar" />
+    </item>
+    <item
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.maps.android-android-maps-utils-0.3.4_09e7e2f63738be9be18f09637552fcf853ef0a51.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/gson-2.3_742fa48d7d1c1212e916ca3e4531a30a7f6d1949.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/nineoldandroids-2.4.0_a43f543bff7bd4e4336899a1065e115ed251e6a7.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/internal_impl-22.0.0_8eb35b76f02af255f6fd6c0eb51bea884857d453.jar" />
+    </item>
+    <item
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="5c5699834e9722f1c288fea2de82725d078ba127">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-appcompat-v7-23.1.1_44859b2b41d5a8a3b649105667573fe2edc63fb0.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fc82596d7f7683c8b3a7e5715a2ed5295c586887">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/io.fabric.sdk.android-fabric-1.3.6_f9679d1825002d349ac5674e561814294315202a.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2b0de013e5734ad3efbcaeb7727f06c37db3cc35">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.ogaclejapan.smarttablayout-library-1.1.3_f8189f5afa05eeefbfa5f9eae4cfe977e3037734.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/support-annotations-23.1.1_9f27e0258fcb8a97875c3537bd18c9c5e146bc0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-analytics-8.3.0_3a9ced3ba1aafc25effa643435c541e15a5bcc02.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-identity-8.3.0_c2b3016ecb45d9a796510c450dba48b9da08bc9b.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/bolts-android-1.1.2_27716963b39e27270bce7113e2a1643346563653.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/javax.inject-1_ff420a9780a5e05274e6f0f2dad425f61b9599f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-recyclerview-v7-22.1.1_e0b4579c235b4cbec3f03c345b254372d2dc1c56.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library/1.0.8/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="3961200ba65e1852a617e3d1e5dbc17d02372d34">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.mcxiaoke.volley-library-1.0.8_d3379888d08a8786d4644906586955761006be21.jar" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-identity-8.3.0_c2b3016ecb45d9a796510c450dba48b9da08bc9b.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.facebook.android-facebook-android-sdk-3.21.1_b25d5d9c81edd8ffb45b6924437dbe3e09e9fb74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-base-8.3.0_46a69704c9b373676d2935c08790a99bca357642.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-measurement-8.3.0_d5c1cc94aed20e7144b9b535326100927dc67eea.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fc82596d7f7683c8b3a7e5715a2ed5295c586887">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/io.fabric.sdk.android-fabric-1.3.6_f9679d1825002d349ac5674e561814294315202a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b7a78990c10481f43cb4909f535ef4f11e60f1ab">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-beta-1.1.3_8e710763cf571330ff801bac816b162f90429da2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-appindexing-8.3.0_f4a509d497389faae4419239c65982d756492bd3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="acf66033b1418ccf9e15c8e77750981e4809c4ea">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-core-3.1.0_e45f9d2dc36366a44d4537a75dc9db2609983e33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-core-slh-3.1.0_6c924ab342f484e77d3b004c0c96b1211c6bbc23.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-support-v4-23.1.1_a8e96481ea60d7d6026e69c8850045e70a3f9664.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b80928f77e18d088e2d5103a7fca051d70878ca7">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.afollestad-material-dialogs-0.7.3.3_4af167c9e5c04959b7a4cfda7acfa567a4a8faad.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/me.grantland/autofittextview/0.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/me.grantland-autofittextview-0.2.1_5dc754df7d720153ea890151f7da4ff74a32a822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.maps.android/android-maps-utils/0.3.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="cf251baf39f5c5138224b67b4106eb6331abbd13">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.maps.android-android-maps-utils-0.3.4_09e7e2f63738be9be18f09637552fcf853ef0a51.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.2/jars/classes.jar"
         jumboMode="false"
+        optimize="true"
         revision="23.0.2"
         sha1="e99413cdc93bd7b001d312a4a33d25ac21042f69">
         <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-answers-1.3.2_7bef24030a7bcf94fc284939bec90dc7af8262ca.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/gson-2.3_742fa48d7d1c1212e916ca3e4531a30a7f6d1949.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-appcompat-v7-23.1.1_44859b2b41d5a8a3b649105667573fe2edc63fb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-support-v4-23.1.1_a8e96481ea60d7d6026e69c8850045e70a3f9664.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-core-slh/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="49223278ec2ede1d05d00868c5ce3e077b4016f8">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-core-slh-3.1.0_6c924ab342f484e77d3b004c0c96b1211c6bbc23.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/guava-15.0_2d9b10591e40e26e7b8dc22adf13c41be3ea5481.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/uk.co.chrisjenx-calligraphy-2.2.0_f1e0e246e4cde066ac560e06609bdabf6c780dad.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-analytics-8.3.0_3a9ced3ba1aafc25effa643435c541e15a5bcc02.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/dagger-compiler-1.2.2_84ebca8dd0bad530c3ec61a33809bef9b77780e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/internal_impl-22.0.0_8eb35b76f02af255f6fd6c0eb51bea884857d453.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-maps-8.3.0_50548d977cf72b18be65507a046ef6dbdef299ce.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-measurement-8.3.0_d5c1cc94aed20e7144b9b535326100927dc67eea.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="71eda10e33212e44245524b5087366ff8d805825">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-gcm-8.3.0_ca440635de6e9c608cba471b6056597f129f99cb.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.andreabaccega/android-form-edittext/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="352e84b094a60afce4e9efcf45887ee0c2b14e7d">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.andreabaccega-android-form-edittext-1.1.0_7f649686357445712d6e40d2b35af47b72c709cb.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-support-v13-22.0.0_d25fda55d69fd9e2835cfade9e8fd795bc0ee37a.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/javax.inject-1_ff420a9780a5e05274e6f0f2dad425f61b9599f9.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-plus-8.3.0_a442f67060d4356dea1b2388bd8b5fe0bb0cf298.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/universal-image-loader-1.9.3_06055c8ae1e08c89934076701f48c549ae402b02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-basement-8.3.0_bdc97d16669bffef7887343c5a48c81bdc973603.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0c7f9fb9a729166c69fa585e01be2fe8fab4f45c">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-crashlytics-2.5.2_08ba7a134dabb174580e91db8134bff210069ad0.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-appindexing-8.3.0_f4a509d497389faae4419239c65982d756492bd3.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/support-annotations-23.1.1_9f27e0258fcb8a97875c3537bd18c9c5e146bc0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d18ba1d0eff55680fdf9a35f70a6091e4bc1adcb">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-crashlytics-core-2.3.5_8602f369587d669d3b3be1c867d07e3004a0f4d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/me.grantland/autofittextview/0.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="972ca945f0cf5ff0765ab94fa8e1a90661ea197a">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/me.grantland-autofittextview-0.2.1_5dc754df7d720153ea890151f7da4ff74a32a822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger/1.2.2/e8f912ee19ad84958510883ea191135276b091f8/dagger-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e8f912ee19ad84958510883ea191135276b091f8">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/dagger-1.2.2_534c150185a27da36fbc0b27a52344a35ef19e68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="81241ff7078ef14f42ea2a8995fa09c096256e6b">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/javawriter-2.5.0_a3f874f49e4f2125d5b23c2c4a6cf5db5d98275c.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.afollestad/material-dialogs/0.7.3.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b80928f77e18d088e2d5103a7fca051d70878ca7">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.afollestad-material-dialogs-0.7.3.3_4af167c9e5c04959b7a4cfda7acfa567a4a8faad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.oguzdev/CircularFloatingActionMenu/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.oguzdev-CircularFloatingActionMenu-1.0.2_a1511747596564b793a254d833823eefd7997406.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-plus-8.3.0_a442f67060d4356dea1b2388bd8b5fe0bb0cf298.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.yalantis/phoenix/1.1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="58942d19ac4ac37a3e93c17ed754737bee6534d4">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.yalantis-phoenix-1.1.2_044ca06283a3eba8fe0530d3fed146d9d60450e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/uk.co.chrisjenx-calligraphy-2.2.0_f1e0e246e4cde066ac560e06609bdabf6c780dad.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/internal_impl-23.1.1_b09b881fd4dc4b9ac7918eaa44aa7f54b7489205.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/library/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2b0de013e5734ad3efbcaeb7727f06c37db3cc35">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.ogaclejapan.smarttablayout-library-1.1.3_f8189f5afa05eeefbfa5f9eae4cfe977e3037734.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0285ad8da812e92dda76ed5d0dcba05724c7911d">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.facebook.android-facebook-android-sdk-3.21.1_b25d5d9c81edd8ffb45b6924437dbe3e09e9fb74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.nhaarman.listviewanimations/lib-manipulation/3.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5660e4bf78904137e90e62a5d4cc2e987258f02c">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.nhaarman.listviewanimations-lib-manipulation-3.1.0_5d27398a8bbad20c09802a6fa3f41253cd41c6d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0c7f9fb9a729166c69fa585e01be2fe8fab4f45c">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.crashlytics.sdk.android-crashlytics-2.5.2_08ba7a134dabb174580e91db8134bff210069ad0.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-recyclerview-v7-22.1.1_e0b4579c235b4cbec3f03c345b254372d2dc1c56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.2/91c20388c9a45f62b5ed8fe0502bb76ff6251fc7/bolts-android-1.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/bolts-android-1.1.2_27716963b39e27270bce7113e2a1643346563653.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library/1.0.8/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3961200ba65e1852a617e3d1e5dbc17d02372d34">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.mcxiaoke.volley-library-1.0.8_d3379888d08a8786d4644906586955761006be21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.android.support-support-v13-22.0.0_d25fda55d69fd9e2835cfade9e8fd795bc0ee37a.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-base-8.3.0_46a69704c9b373676d2935c08790a99bca357642.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.google.android.gms-play-services-maps-8.3.0_50548d977cf72b18be65507a046ef6dbdef299ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.squareup.dagger/dagger-compiler/1.2.2/fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57/dagger-compiler-1.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fa9b2f9ae597cedf2a66ef3e60662ff36bb60e57">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/dagger-compiler-1.2.2_84ebca8dd0bad530c3ec61a33809bef9b77780e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/nineoldandroids-2.4.0_a43f543bff7bd4e4336899a1065e115ed251e6a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.ogaclejapan.smarttablayout/utils-v13/1.1.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a71fb362a5dbd1a94505c0e73ed9a3b370be83b5">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.ogaclejapan.smarttablayout-utils-v13-1.1.3_792cc7f54d929005abbf98dd5c3bd646d18842a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/exploded-aar/com.andreabaccega/android-form-edittext/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="352e84b094a60afce4e9efcf45887ee0c2b14e7d">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/com.andreabaccega-android-form-edittext-1.1.0_7f649686357445712d6e40d2b35af47b72c709cb.jar" />
+    </item>
+    <item
+        jar="/Users/Matias/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/15.0/ed727a8d9f247e2050281cb083f1c77b09dcb5cd/guava-15.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ed727a8d9f247e2050281cb083f1c77b09dcb5cd">
+        <dex dex="/Users/Matias/Documents/Workspace/CirculoPro/app/build/intermediates/pre-dexed/prod/debug/guava-15.0_2d9b10591e40e26e7b8dc22adf13c41be3ea5481.jar" />
     </item>
 
 </items>
