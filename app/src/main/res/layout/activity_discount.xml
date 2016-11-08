@@ -341,16 +341,40 @@
                         android:textColor="@color/material_grey_800"
                         android:textSize="22sp" />
 
-                    <TextView
-                        android:id="@+id/viewDiscount_branch_phone_textView"
+                    <LinearLayout
+                        android:id="@+id/viewDiscount_branch_phone_container"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
-                        android:gravity="center"
+                        android:orientation="horizontal"
                         android:paddingLeft="5dp"
-                        android:paddingRight="5dp"
-                        android:textColor="@color/material_grey_500" />
+                        android:paddingRight="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/discount.phone.format"
+                            android:textColor="@color/material_grey_500" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/viewDiscount_branch_phone_textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:textColor="@color/Blue" />
+                            <View
+                                android:layout_width="match_parent"
+                                android:layout_height="0.5dp"
+                                android:background="@color/Blue"/>
+                        </LinearLayout>
+                    </LinearLayout>
 
                     <TextView
                         android:id="@+id/viewDiscount_branch_address_textView"
